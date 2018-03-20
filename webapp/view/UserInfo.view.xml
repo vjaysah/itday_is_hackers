@@ -1,0 +1,57 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns="sap.m"
+	controllerName="Sanjeevani.controller.UserInfo" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="User Info" class="pageBg" titleLevel="H1" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<VBox class="sapUiSmallMargin">
+						<f:SimpleForm id="SimpleFormChange480_12120" editable="true" layout="ResponsiveGridLayout" title="Address" labelSpanXL="4" labelSpanL="4"
+							labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2"
+							columnsL="2" columnsM="1" singleContainerFullSize="false">
+							<f:content>
+								<core:Title text="User Data"/>
+								<Label text="Name"/>
+								<Input value="Abhishek Kumar" editable="false"/>
+								<Label text="Street/No."/>
+								<Input value="144" editable="false"></Input>
+								<Input value="Kalyan Nagar" editable="false">
+									<layoutData>
+										<l:GridData span="XL2 L3 M4 S4"/>
+									</layoutData>
+								</Input>
+								<Label text="ZIP Code/City"/>
+								<Input value="560066" editable="false">
+									<layoutData>
+										<l:GridData span="XL2 L3 M4 S4"/>
+									</layoutData>
+								</Input>
+								<Input value="Bangalore" editable="false"/>
+								<Label text="State"/>
+								<Input value="Karnataka" editable="false"/>
+								<core:Title text="Other Data"/>
+								<Label text="Photo"/>
+								<Image height="100px" src="./images/pp.jpg"/>
+								<Label text="Last Check Up"/>
+								<DatePicker editable="false" value="2017-11-23" valueFormat="yyyy-MM-dd"/>
+							</f:content>
+						</f:SimpleForm>
+						<f:SimpleForm id="SimpleFormChange480_12120-2" editable="true" layout="ResponsiveGridLayout" title="More" labelSpanXL="4" labelSpanL="4"
+							labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2"
+							columnsL="2" columnsM="1" singleContainerFullSize="false">
+							<f:content>
+								<core:Title text="Family"/>
+								<Label text="Mobile Numer"/>
+								<Input value="7892513641" type="Tel" editable="false"/>
+								<Label text="No of dependents"/>
+								<Input value="3" editable="false"/>
+								<core:Title text="Actions"/>
+								<Button text="Get Medical History" icon="sap-icon://work-history"/>
+								<Button text="Start Check Up" icon="sap-icon://electrocardiogram" press="startCheck"/>
+							</f:content>
+						</f:SimpleForm>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

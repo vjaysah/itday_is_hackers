@@ -1,0 +1,30 @@
+<mvc:View controllerName="Sanjeevani.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" class="pageBg" titleLevel="H1">
+				<content>
+					<VBox class="form">
+						<Image width="100px" height="100px" src="images/logo.png" class="logoImg"/>
+						<Label text="Username"/>
+						<Input width="100%" class="input" placeholder="username"/>
+						<Label text="Password"/>
+						<Input width="100%" class="input" placeholder="password" type="Password"/>
+						<HBox class="rightText">
+							<Link text="Forgot Password?"/>
+						</HBox>
+						<HBox class="centerText">
+							<Text text="OR" textAlign="Center"/>
+						</HBox>
+						<Label text="OTP"/>
+						<Input width="100%" class="input" placeholder="OTP" type="Number"/>
+						<HBox class="rightText">
+							<Link text="Reset OTP"/>
+						</HBox>
+						<Button text="Login" width="100px" type="Accept" press="onLoginPress"/>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "Sanjeevani.Sanjeevani",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Sanjeevani-Display",
+        "navigationComponentName": "Sanjeevani",
+        "intentSemanticObject": "Sanjeevani",
+        "intentAction": "Display",
+        "html5ApplicationName": "sanjeevani",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "dfe9519c-4a52-47b0-a46a-6527e89645da"
+        ],
+        "contentPackages": [
+            "77b99a54-d084-4bb0-aa8f-9fb06aef7fa2"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "searchKeywords": "Title,Subtitle",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

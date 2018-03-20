@@ -1,0 +1,40 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 9462308,
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1521539010384
+      }
+    }
+  ],
+  "hybrid": {
+    "dirty": false,
+    "cordovaContainerId": "e24e673dcb1618371d19857ab8c9c742",
+    "cordovaPackageId": "c16a56bb8ae2f707ef289bbb8e64e372",
+    "commonError": "",
+    "callStart": "2018-03-20T14:38:42.198Z",
+    "packagingEnd": "2018-03-20T14:41:16.350Z",
+    "packagingStart": "2018-03-20T14:38:59.172Z",
+    "results": {
+      "ios": {},
+      "android": {
+        "requested": true,
+        "buildStart": "2018-03-20T14:41:38.096Z"
+      }
+    },
+    "hcpmsAppId": "com.sap.fiorimobile.xe24e673dcb1618371d19857ab8c9c742"
+  }
+}

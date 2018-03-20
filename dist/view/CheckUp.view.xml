@@ -1,0 +1,46 @@
+<mvc:View controllerName="Sanjeevani.controller.CheckUp" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Check Up" class="pageBg" titleLevel="H1" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<l:VerticalLayout width="100%">
+						<l:BlockLayout id="BlockLayout" background="Dashboard">
+							<l:BlockLayoutRow >
+								<l:BlockLayoutCell title="Pregnancy &amp; Post Pregnancy" class="cell">
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell title="New Born Infants" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Routine Check Up" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Menstrual Hygiene &amp; Awareness" class="cell"></l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell title="Govenment Health Schemes" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Malnutrition checks" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Child Health Care" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="General Medication" class="cell"></l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell title="Doctor Consultation/Camp" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Eye Check Up" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Blood bank &amp; Donation" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Dental Check Up" class="cell"></l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell title="Hospital &amp; Medical Directory" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Pathology Labs" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Major Operations" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Swachh Bharat Mission" class="cell"></l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+								<l:BlockLayoutRow>
+								<l:BlockLayoutCell title="NGO Tie-ups" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Ayurveda" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Cancer Awareness" class="cell"></l:BlockLayoutCell>
+								<l:BlockLayoutCell title="Reports" class="cell"></l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+						</l:BlockLayout>
+					</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

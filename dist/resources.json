@@ -1,0 +1,93 @@
+{
+    "resources": [
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "images/pp.jpg"
+        },
+        {
+            "name": "images/bg.png"
+        },
+        {
+            "name": "images/logo.png"
+        },
+        {
+            "name": "images/report.jpg"
+        },
+        {
+            "name": "images/work.jpg"
+        },
+        {
+            "name": "images/analysis.jpg"
+        },
+        {
+            "name": "images/village.jpg"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
+            "name": "controller/NotFound.controller.js"
+        },
+        {
+            "name": "controller/Home.controller.js"
+        },
+        {
+            "name": "controller/CheckUp.controller.js"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/UserInfo.controller.js"
+        },
+        {
+            "name": "controller/Base.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "view/NotFound.view.xml"
+        },
+        {
+            "name": "view/UserInfo.view.xml"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/CheckUp.view.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/Home.view.xml"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

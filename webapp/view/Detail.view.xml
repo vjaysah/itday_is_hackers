@@ -1,0 +1,65 @@
+<mvc:View controllerName="Sanjeevani.controller.Detail" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" class="pageBg" titleLevel="H1" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<l:DynamicSideContent equalSplit="true">
+						<l:mainContent>
+							<Bar>
+								<contentMiddle>
+									<Title text="My Work"></Title>
+								</contentMiddle>
+							</Bar>
+							<l:VerticalLayout width="100%">
+								<l:BlockLayout id="BlockLayout" background="Dashboard">
+									<l:BlockLayoutRow >
+										<l:BlockLayoutCell title="Villages"></l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+									<l:BlockLayoutRow>
+										<l:BlockLayoutCell title="Reports"></l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+									<l:BlockLayoutRow>
+										<l:BlockLayoutCell title="Analysis"></l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+									<l:BlockLayoutRow>
+										<l:BlockLayoutCell title="Today's Work"></l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+								</l:BlockLayout>
+							</l:VerticalLayout>
+						</l:mainContent>
+						<l:sideContent>
+							<Bar>
+								<contentMiddle>
+									<Title text="Feild Work"></Title>
+								</contentMiddle>
+							</Bar>
+							<l:VerticalLayout width="100%">
+								<l:BlockLayout background="Dashboard">
+									<l:BlockLayoutRow >
+										<l:BlockLayoutCell title="Enter Aadhar Number">
+											<VBox>
+												<Input type="Number" placeholder="XXXX-XXXX-XXXX"/>
+												<Button text="GO" press="goToUser"></Button>
+											</VBox>
+										</l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+									<l:BlockLayoutRow >
+										<l:BlockLayoutCell title="Scan Aadhar" >
+											<Button icon="sap-icon://bar-codesap-icon://electrocardiogram" text="Start Scan"/>
+										</l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+									<l:BlockLayoutRow >
+										<l:BlockLayoutCell title="Scan Fingerprint" >
+											<Button icon="sap-icon://touch" text="Start Scan"/>
+										</l:BlockLayoutCell>
+									</l:BlockLayoutRow>
+								</l:BlockLayout>
+							</l:VerticalLayout>
+						</l:sideContent>
+					</l:DynamicSideContent>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

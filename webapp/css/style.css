@@ -1,0 +1,39 @@
+/* Enter your custom styles here */
+.pageBg {
+	background-image: url("../images/bg.png");
+	background-size: 100% 100%;
+            background-repeat: no-repeat;
+}
+.sapMIBar.sapMHeader-CTX {
+	opacity : 0.8;
+}
+.form {
+    z-index: 1;
+  color: rgba(130, 130, 130, 0.5);
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width : 300px;
+}
+.logoImg  {
+    transform: translate(-50%);
+    margin-left: 50%;
+    width : 50px;
+}
+.centerText {
+	    margin: 5px 0px 5px 0px;
+    left: 50%;
+}
+.rightText {
+	margin: 5px 0px 5px 0px;
+	left : 50%;
+}
+.village {
+	background-image  : url("../images/village.jpg");
+}
+.cell>div {
+    border-radius: 10px;
+}
